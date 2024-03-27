@@ -1,0 +1,108 @@
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------
+    ROOT
+------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+:root
+    {
+        --theme01: #005073;
+        --theme02: #107dac;
+        --theme03: 	#189ad3;
+        --theme04: #1ebbd7;
+        --theme05: #71c7ec;
+
+        --black: #000000;
+        --white: #ffffff;
+
+        --black01: #252525;
+
+
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
+
+        font-family: 'Oxygen', sans-serif;
+    }
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------
+    BODY
+------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+body
+    {
+     
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+        background-image: url("jess-bailey-q10VITrVYUM-unsplash.jpg");
+        font-family: 'Oxygen', sans-serif;
+    }
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------
+    REGISTRATION/LOG IN FORM
+------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+.form
+    {
+        background-color: var(--white);
+        box-shadow: 0 20px 50px rgba(8, 112, 184, 0.7);
+        display: table;
+        padding: 20px; 
+        width: 350px; 
+        margin: 0 auto;
+        margin-top: 9%;
+    }
+
+.f-header
+    {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+.f-subheader
+    {
+        color: var(--theme03);
+    }
+
+.f-image
+    {
+        display: table;
+        height: auto;
+        margin: 0 auto;
+        padding: .5rem 0;
+        pointer-events: none;
+        width: 90%;
+    }
+
+.char
+    {
+        color: var(--theme03);
+    }
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------
+    CREDITS
+
+    https://unsplash.com/@jessbaileydesigns?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+    https://www.tutorialrepublic.com/php-tutorial/php-mysql-crud-application.php
+    https://unsplash.com/@andrewtneel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyTextum=referral&utm_content=creditCopyTexT
+    https://unsplash.com/@jorick?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyTexT
+    https://unsplash.com/photos/gMsnXqILjp4
+    https://unsplash.com/photos/6awfTPLGaCE
+
+    https://www.flaticon.com/packs/spring-avatars-8?word=avatar
+  
+------------------------------------------------------------------------------------------------------------------------------------------------------ */
